@@ -1,6 +1,7 @@
 import React  from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
+import Card from './Components/features-card/Card';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/">
+          <Card/>
         </Route>
       </Switch>
     </Router>
