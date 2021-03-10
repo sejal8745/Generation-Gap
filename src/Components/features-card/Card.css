@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 10px 10px #000;
+    border: 2px solid #000;
+    align-items: center;
+    max-width: 100px;
+    justify-content: space-between;
+    margin: 100px;
+}
