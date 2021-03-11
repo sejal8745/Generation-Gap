@@ -1,8 +1,9 @@
+
 import React  from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
 import Home from './Pages/Home/Home';
-import Card from './Components/features-card/Card';
+import AddNote from "./Components/AddNote/AddNote";
 
 
 function App() {
@@ -11,9 +12,13 @@ function App() {
     <div className="App">
     <Router>
       <Switch>
+
       <Route path="/home">
         <Home />
         </Route>
+        <Route path="/notes">
+            <AddNote/>
+          </Route>
        
       </Switch>
     </Router>

@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(243, 162, 223);
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.header_left {
+    width: 100%;
+    margin-top: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.noteIcon {
+    color: rgb(230, 75, 170);
+}
+
+.header_note{
+    color: rgb(245, 237, 237);
+}
+
