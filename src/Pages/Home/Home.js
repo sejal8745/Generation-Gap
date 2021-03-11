@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-// import OP1 from "../../Assets/OP1.png";
+import OP1 from "../../Assets/OP1.png"; 
 import Card from "../../Components/features-card/Card"
 import PhoneInTalkIcon from '@material-ui/icons/PhoneInTalk';
 import GTranslateIcon from '@material-ui/icons/GTranslate';
@@ -66,7 +66,7 @@ const Home = () => {
                            
                         </div>
                         <div className="Image">
-                            {/* <img className="Img" src={OP1} alt="OP" /> */}
+                            <img className="Img" src={OP1} alt="OP" />
                         </div>
                         <div className="Contentright">
                             <p>Technical ability is also important.<br></br> How technology affects the generation gap<br></br> is impacted by how well older people <br></br>can learn and
