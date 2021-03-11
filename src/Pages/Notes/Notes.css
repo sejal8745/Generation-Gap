@@ -1,0 +1,41 @@
+.notes {
+    text-align: center;
+    margin: 20px;
+    border: 0 solid #000;
+    box-shadow: 5px 5px 5px 2px #f1eeee;
+    width: 400px;
+    border-radius: 20px;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between; */
+
+}
+
+.subNote {
+    align-items: center;
+    border: none;
+    font-size: large;
+    width: 300px;
+    padding: 10px;
+    padding-left: 30px;
+    outline: none;
+    text-align: start;
+
+
+}
+
+.titleNote {
+    border: none;
+    font-size: 40px;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    text-align: start;
+    padding-left: 30px;
+
+}
+
+.deleteIcon {
+    padding: 10px;
+    color: rgb(241, 93, 185);
+}
