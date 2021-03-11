@@ -16,12 +16,13 @@ function App() {
     <Router>
       <Switch>
         <Route path="/">
+
         <Card/>
         <button onClick={login}>Login</button>
 
+
         <Button buttonName = "tour" label = "Take a tour" />
 
-          <Card/>
 
         </Route>
       </Switch>
