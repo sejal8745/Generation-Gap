@@ -77,12 +77,11 @@ display: flex;
 
  .Contentleft{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.Contentleft p{
-  
-} 
+
 
 .Img {
 padding-bottom: 0%;
@@ -92,6 +91,10 @@ margin-left: 20%;
 
 .HomeBody{
     display: flex;
+}
+
+.HomeFooter{
+  display: flex;
 }
 
 @media only screen and (max-width: 535px) {
