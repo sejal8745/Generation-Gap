@@ -1,6 +1,9 @@
 import React  from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
+
+import Button from './Components/Button/Button';
+
 import Card from './Components/features-card/Card';
 import { auth, provider } from './firebase';
 
@@ -13,8 +16,14 @@ function App() {
     <Router>
       <Switch>
         <Route path="/">
+
         <Card/>
         <button onClick={login}>Login</button>
+
+
+        <Button buttonName = "tour" label = "Take a tour" /
+
+
         </Route>
       </Switch>
     </Router>
