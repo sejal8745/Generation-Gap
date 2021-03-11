@@ -5,17 +5,24 @@ import './App.css';
 import Button from './Components/Button/Button';
 
 import Card from './Components/features-card/Card';
+import { auth, provider } from './firebase';
 
 function App() {
+  const login= ()=>{
+    auth.signInWithPopup(provider).catch((e)=>{alert(e.message)});
+  };
   return (
     <div className="App">
     <Router>
       <Switch>
         <Route path="/">
 
-        <Button buttonName = "tour" label = "Take a tour" />
+        <Card/>
+        <button onClick={login}>Login</button>
 
-          <Card/>
+
+        <Button buttonName = "tour" label = "Take a tour" /
+
 
         </Route>
       </Switch>
