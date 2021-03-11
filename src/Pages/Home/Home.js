@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-=import OP1 from "../../Assets/OP1.png";
+import OP1 from "../../Assets/OP1.png";
 import Card from "../../Components/features-card/Card"
 import PhoneInTalkIcon from '@material-ui/icons/PhoneInTalk';
 import GTranslateIcon from '@material-ui/icons/GTranslate';
