@@ -21,7 +21,7 @@ function App() {
         <button onClick={login}>Login</button>
 
 
-        <Button buttonName = "tour" label = "Take a tour" /
+        <Button buttonName = "tour" label = "Take a tour" />
 
 
         </Route>
