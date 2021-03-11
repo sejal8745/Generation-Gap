@@ -15,6 +15,7 @@ function App() {
 
       <Route path="/home">
         <Home />
+        </Route>
         <Route path="/notes">
             <AddNote/>
           </Route>
