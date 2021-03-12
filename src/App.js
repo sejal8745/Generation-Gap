@@ -1,3 +1,4 @@
+
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
@@ -6,15 +7,18 @@ import Card from "./Components/features-card/Card";
 import AddNote from "./Components/AddNote/AddNote";
 import { auth, provider } from './firebase';
 import SearchWord from "./Pages/Dictionary/SearchWord";
+import Home from './Pages/Home/Home';
+import AddNote from "./Components/AddNote/AddNote";
+
+
 
 function App() {
-  const login= ()=>{
-    auth.signInWithPopup(provider).catch((e)=>{alert(e.message)});
-  };
+ 
   return (
     <div className="App">
     <Router>
       <Switch>
+
         <Route path="/notes">
             <AddNote/>
           </Route>
@@ -27,6 +31,14 @@ function App() {
         <button onClick={login}>Login</button>
         <Button buttonName = "tour" label = "Take a tour" />
         </Route>
+
+
+      <Route path="/home">
+        <Home />
+        </Route>
+        
+       
+
       </Switch>
     </Router>
     </div>

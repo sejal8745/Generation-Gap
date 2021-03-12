@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Home {
+    background-image: url('../../Assets/4853433.jpg');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+.HomeCard {
+  width: 80%;
+  min-width: 200px;
+  height: 600px;
+  opacity: 90%;
+  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 0.8rem;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardHeader{
+    background-color: #f4c2c2;
+}
+
+.CardFooter{
+    background-color: white;
+}
+
+/* .Navbar{
+    display: flex;
+   justify-content: right;
+    align-items: flex-end;
+    height: 100vh;
+} */
+
+a{
+    color: #808080; 
+  display: flex; 
+  align-items: center; 
+  text-decoration: none; 
+  padding: 1rem; 
+  height: 100%; 
+  cursor: pointer; 
+}
+
+a:hover{
+    color: black;
+}
+
+.Navbar{
+    display: flex; 
+  align-items: center; 
+  margin-right: -10px; 
+}
+.Navbarleft{
+    display: flex;
+    flex: 1;
+}
+
+.Navbarright{
+display: flex;
+}
+
+ .Contentleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.Img {
+padding-bottom: 0%;
+width:90% ;
+margin-left: 20%;
+}
+
+.HomeBody{
+    display: flex;
+}
+
+.HomeFooter{
+  display: flex;
+}
+
+@media only screen and (max-width: 535px) {
+  .Home {
+  
+    height: 100vh;  
+    overflow: hidden;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .Home {
+  
+    height: 100vh; 
+    z-index: 999; 
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Home {
+
+      height: 100vh; 
+      z-index: 999; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Home {
+      height: 100vh;
+      z-index: 999;  
+
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Home {
+      height: 100vh; 
+      z-index: 999; 
+
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Home {
+      height: 100vh; 
+      z-index: 999; 
+
+  }
+}
+
+ /* linear-gradient(
+  rgba(212, 209, 209, 0.5),
+  rgba(0, 0.8, 0.8, 0.5)
+), */

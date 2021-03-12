@@ -12,12 +12,10 @@
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
-    border: solid #ff3399 2px;
-    text-decoration: none;
-    color: #ff3399;
+    color: #1f8ea1;
 }
 .tour:hover {
-    background: #ff3399;
+    background: #c2babe;
     text-decoration: none;
-    color: white;
+    color: rgb(37, 36, 36);
 }
