@@ -6,6 +6,8 @@ import Button from './Components/Button/Button';
 
 import Card from './Components/features-card/Card';
 import { auth, provider } from './firebase';
+import GamePage from './GamePage';
+
 
 function App() {
   const login= ()=>{
@@ -15,12 +17,14 @@ function App() {
     <div className="App">
     <Router>
       <Switch>
+        <Route path="/games">
+        <GamePage/>
+        </Route>
         <Route path="/">
-
+        
         <Card/>
         <button onClick={login}>Login</button>
-
-
+        
         <Button buttonName = "tour" label = "Take a tour" />
 
 
