@@ -1,0 +1,34 @@
+.GamePage {
+  font-family: sans-serif;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: white;
+}
+
+.item {
+  outline: none;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 100%;
+  background-color: white;
+  color: blue;
+  margin: 0px 15px;
+  font-size: 3em;
+  padding: 5px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 70px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.item > img {
+  width: 300px;
+  margin-top: 30px;
+}
+.item:hover {
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
