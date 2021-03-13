@@ -46,8 +46,13 @@
   flex-direction: column;
 }
 
+
+.CardHeader{
+    background-color: #123;
+
 a{
   text-decoration: none;
+
 }
 a:hover{
   text-decoration: none;
