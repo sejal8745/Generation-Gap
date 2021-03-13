@@ -27,7 +27,7 @@ function About() {
         <div className="about_cards">
           <div className="about_profile">
             <img className="profile" src={sakshi} alt="sakshi" />
-            <h2 classname="about_info">SEJAL GOYAL 2nd Year Student</h2>
+            <h2 classname="about_info">SEJAL GOYAL <br></br> 2nd Year Student</h2>
             <div className="aboutCard_foot">
               <a href="https://www.linkedin.com/in/sejal-goyal-437015194/">
                 {" "}
@@ -45,7 +45,7 @@ function About() {
           </div>
           <div className="about_profile">
             <img className="profile" src={sakshi} alt="sakshi" />
-            <h2 classname="about_info">SAKSHI DHAMIJA 2nd Year Student</h2>
+            <h2 classname="about_info">SAKSHI DHAMIJA <br></br> 2nd Year Student</h2>
             <div className="aboutCard_foot">
               <a href="https://www.linkedin.com/in/s15/">
                 {" "}
@@ -63,7 +63,7 @@ function About() {
           </div>
         <div className="about_profile">
           <img className="profile" src={sakshi} alt="sakshi" />
-          <h2 classname="about_info">PARUL SURANA 2nd Year Student</h2>
+          <h2 classname="about_info">PARUL SURANA <br></br> 2nd Year Student</h2>
           <div className="aboutCard_foot">
             <a href="https://www.linkedin.com/in/parul-surana-ab0044194/">
               {" "}

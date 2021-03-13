@@ -7,15 +7,20 @@
 
 .tour {
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 25px;
     background-color: transparent;
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    color: #1f8ea1;
+    font-size: 18px;
+    padding: 10px;
+    color: palevioletred;
+    width: 150px;
+    outline: none;
+    border: 2px solid palevioletred;
+    cursor: pointer;
 }
 .tour:hover {
-    background: #c2babe;
+    background: palevioletred;
     text-decoration: none;
-    color: rgb(37, 36, 36);
+    color: white;
+    outline: none;
 }
