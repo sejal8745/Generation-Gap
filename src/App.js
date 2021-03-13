@@ -4,6 +4,9 @@ import "./App.css";
 import Button from "./Components/Button/Button";
 import Card from "./Components/features-card/Card";
 import AddNote from "./Components/AddNote/AddNote";
+import GamePage from './GamePage';
+import SearchWord from "./Pages/Dictionary/SearchWord";
+import Home from './Pages/Home/Home';
 import { auth, provider } from './firebase';
 import GamePage from './GamePage';
 import SearchWord from "./Pages/Dictionary/SearchWord";
@@ -15,6 +18,10 @@ function App() {
   return (
     <div className="App">
 
+    <Router>
+      <Switch>
+
+
       <Router>
         <Switch>
           <Route path="/notes">
@@ -24,14 +31,29 @@ function App() {
             <About />
 
         <Route path="/games">
-        <GamePage/>
+          <GamePage/>
         </Route>
+
+        <Route path="/notes">
+            <AddNote/>
+
         <Route path="/dictionary">
             <SearchWord />
+
           </Route>
           <Route path="/news">
             <DailyNews />
           </Route>
+
+        
+
+
+      <Route path="/home">
+        <Home />
+        </Route>
+        
+      </Switch>
+    </Router>
           <Route path="/home">
             <Home />
           </Route>
@@ -42,6 +64,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+
     </div>
   );
 }
