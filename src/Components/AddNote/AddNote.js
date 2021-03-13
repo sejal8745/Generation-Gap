@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Notes from '../../Pages/Notes/Notes'
 import CreateNote from '../CreateNote/CreateNote'
 import Header from '../Header/Header'
+import './AddNote.css'
 
 const AddNote = () => {
     const [addnote, setAddnote] = useState([]);
