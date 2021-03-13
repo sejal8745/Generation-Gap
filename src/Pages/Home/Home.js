@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import OP1 from "../../Assets/OP1.png"; 
+import OP1 from "../../Assets/OP1.png";
 import Card from "../../Components/features-card/Card"
 import PhoneInTalkIcon from '@material-ui/icons/PhoneInTalk';
 import GTranslateIcon from '@material-ui/icons/GTranslate';
@@ -12,12 +12,12 @@ import Button from "../../Components/Button/Button";
 import { auth, provider } from '../../firebase';
 
 const Home = () => {
-    const login= ()=>{
-        auth.signInWithPopup(provider).catch((e)=>{alert(e.message)});
-      };
+    const login = () => {
+        auth.signInWithPopup(provider).catch((e) => { alert(e.message) });
+    };
     return (
         <div className="Home">
-        <p>theme</p>
+            <p>theme</p>
             <div className="HomeCard">
                 <div className="CardHeader">
                     <div className="HomeHeader">
@@ -42,7 +42,7 @@ const Home = () => {
                                 <Link to='/blog' activeStyle>
                                     Blogs
                             </Link>
-                               
+
                                 <Link to='/language' activeStyle>
                                     Language
                              </Link>
@@ -53,17 +53,19 @@ const Home = () => {
                     <div className="HomeBody">
                         <div className="Contentleft">
                             <p>Every Generation needs Regeneration!</p>
-                            <Button 
+                            <Button
                                 buttonName="tour"
                                 label="Take a Tour"
                             />
-                            <div  OnClick={login}>
-                            <Button 
-                                buttonName="tour"
-                                label="SignIn"
-                            />
+                            <div onClick={login}>
+                                <Button
+                                    buttonName="tour"
+                                    label="SignIn"
+                                />
                             </div>
-                           
+
+
+
                         </div>
                         <div className="Image">
                             <img className="Img" src={OP1} alt="OP" />
@@ -77,25 +79,27 @@ const Home = () => {
                 </div>
                 <div className="CardFooter">
                     <div className="HomeFooter">
-                        <Card 
-                         icon={< PhoneInTalkIcon/>}
-                          title="Talk To Your Friend"
+                    <Link to="/chat" activeStyle>
+                        <Card
+                            icon={< PhoneInTalkIcon />}
+                            title="Talk To Your Friend"
+                    />
+                        </Link>
+                        <Card
+                            icon={< NoteIcon />}
+                            title="Note Down"
                         />
-                        <Card 
-                        icon={< NoteIcon/>}
-                          title="Note Down"
+                        <Card
+                            icon={< GTranslateIcon />}
+                            title="Find Word"
                         />
-                        <Card 
-                        icon={< GTranslateIcon/>}
-                          title="Find Word"
+                        <Card
+                            icon={< SportsEsportsIcon />}
+                            title="Games"
                         />
-                        <Card 
-                        icon={< SportsEsportsIcon/>}
-                          title="Games"
-                        />
-                        <Card 
-                        icon={< TvIcon/>}
-                          title="News"
+                        <Card
+                            icon={< TvIcon />}
+                            title="News"
                         />
                     </div>
                 </div>

@@ -9,10 +9,18 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "firebase": "^8.3.0",
+    "i18n": "^0.13.2",
+    "i18next": "^19.9.2",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.10",
+    "react-loading": "^2.0.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "react-toastify": "^7.0.3",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

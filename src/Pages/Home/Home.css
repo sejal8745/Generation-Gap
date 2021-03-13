@@ -7,7 +7,7 @@
 }
 
 .Home {
-    background-image: url('../../Assets/4853433.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuAqAhEzqeEm67TWcq5iU9Fmm9ORHgseT2g&usqp=CAU');
   text-align: center;
   background-repeat: no-repeat;
   background-position: center center;
@@ -33,7 +33,7 @@
 }
 
 .CardHeader{
-    background-color: #f4c2c2;
+    background-color: #123;
 }
 
 .CardFooter{
