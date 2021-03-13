@@ -13,8 +13,8 @@ function Notes(props) {
       <h1 className="titleNote"> {props.title} </h1>
       <br />
       <p className="subNote"> {props.subject} </p>
-      <IconButton className="deleteIcon" onClick={deleteNote}>
-        <DeleteOutlineIcon className="deleteIcon" />
+      <IconButton onClick={deleteNote}>
+        <DeleteOutlineIcon className="deleteIcon"/>
       </IconButton>
     </div>
   );

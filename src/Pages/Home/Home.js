@@ -57,7 +57,7 @@ const Home = () => {
                                 buttonName="tour"
                                 label="Take a Tour"
                             />
-                            <div  OnClick={login}>
+                            <div  onClick={login}>
                             <Button 
                                 buttonName="tour"
                                 label="SignIn"
